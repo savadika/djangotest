@@ -49,3 +49,7 @@ def show_user_message(request):
     return render(request, 'message.html', {
         'my_message': user_message,
     })
+
+
+def test(request):
+    pass
